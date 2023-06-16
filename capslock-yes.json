@@ -1,90 +1,90 @@
 {
-  "title": "CapsLock YES!"，
-  "maintainers": ["lianginx"]，
-  "homepage": "https://github.com/lianginx/capslock-yes"，
-  "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/lianginx/capslock-yes/master/capslock-yes.json"，
+  "title": "CapsLock YES!",
+  "maintainers": ["lianginx"],
+  "homepage": "https://github.com/lianginx/capslock-yes",
+  "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/lianginx/capslock-yes/master/capslock-yes.json",
   "rules": [
     {
-      "description": "caps_lock to command+control+option+shift."，
+      "description": "caps_lock to command+control+option+shift.",
       "manipulators": [
         {
           "from": {
-            "key_code": "caps_lock"，
+            "key_code": "caps_lock",
             "modifiers": {
               "optional": ["any"]
             }
-          }，
+          },
           "to": [
             {
-              "key_code": "left_shift"，
-              "modifiers": ["left_command"， "left_control"， "left_option"]
+              "key_code": "left_shift",
+              "modifiers": ["left_command", "left_control", "left_option"]
             }
-          ]，
+          ],
           "type": "basic"
         }
       ]
-    }，
+    },
     {
-      "description": "caps_lock enter"，
+      "description": "caps_lock enter",
       "manipulators": [
         {
-          "description": "caps_lock+spacebar to return_or_enter"，
+          "description": "caps_lock+spacebar to return_or_enter",
           "from": {
-            "key_code": "spacebar"，
+            "key_code": "spacebar",
             "modifiers": {
               "mandatory": [
-                "left_shift"，
+                "left_shift",
                 "left_command",
-                "left_control"，
+                "left_control",
                 "left_option"
               ]
             }
-          }，
+          },
           "to": [
             {
               "key_code": "return_or_enter"
             }
-          ]，
+          ],
           "type": "basic"
         }
       ]
-    }，
+    },
     {
-      "description": "caps_lock backspace"，
+      "description": "caps_lock backspace",
       "manipulators": [
         {
-          "description": "caps_lock+q to backspace"，
+          "description": "caps_lock+q to backspace",
           "from": {
-            "key_code": "q"，
+            "key_code": "q",
             "modifiers": {
               "mandatory": [
-                "left_shift"，
-                "left_command"，
-                "left_control"，
+                "left_shift",
+                "left_command",
+                "left_control",
                 "left_option"
               ]
             }
-          }，
+          },
           "to": [
             {
               "key_code": "delete_or_backspace"
             }
-          ]，
+          ],
           "type": "basic"
-        }，
+        },
         {
-          "description": "caps_lock+z to delete"，
+          "description": "caps_lock+z to delete",
           "from": {
-            "key_code": "z"，
+            "key_code": "z",
             "modifiers": {
               "mandatory": [
-                "left_shift"，
-                "left_command"，
-                "left_control"，
+                "left_shift",
+                "left_command",
+                "left_control",
                 "left_option"
               ]
             }
-          }，
+          },
           "to": [
             {
               "key_code": "delete_forward"
