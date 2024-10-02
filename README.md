@@ -1,10 +1,12 @@
 # CAPSLOCK YES
 
+> Windows 版本请查看 [CAPSLOCK YES（Auto Hotkey）](https://github.com/lianginx/capslock-yes-ahk)
+
 通过 [Karabiner-Elements](https://karabiner-elements.pqrs.org/) 将按下 `CapsLock` 键映射为按下 `Ctrl+Option+Command+Shift` 组合键，搭配字母键组合出一套全新的快捷键；
 
-让你的双手在编辑代码时，不再需要离开字母区就能随心所欲地快速导航和选中文字；
+让你的双手在编辑代码时，不再需要离开字母区就能随心所欲地快速移动光标或选中文字；
 
-右手使用鼠标时，也不再需要放开鼠标就能精准导航光标到想要的位置；
+右手使用鼠标时，也不再需要放开鼠标就能精准移动光标到想要的位置；
 
 ![key-bitmap](assets/key-bitmap.jpg)
 
