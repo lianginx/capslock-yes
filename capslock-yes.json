@@ -531,6 +531,71 @@
       ]
     },
     {
+      "description": "caps_lock number area",
+      "manipulators": [
+        {
+          "description": "number 0",
+          "from": {
+            "key_code": "spacebar",
+            "modifiers": {
+              "mandatory": ["left_shift", "left_command"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "0"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "number 1",
+          "from": {
+            "key_code": "m",
+            "modifiers": {
+              "mandatory": ["left_shift", "left_command"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "1"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "number 2",
+          "from": {
+            "key_code": ",",
+            "modifiers": {
+              "mandatory": ["left_shift", "left_command"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "2"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "number 3",
+          "from": {
+            "key_code": ".",
+            "modifiers": {
+              "mandatory": ["left_shift", "left_command"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "3"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
       "description": "caps_lock quick start",
       "manipulators": [
         {
