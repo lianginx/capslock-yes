@@ -566,7 +566,7 @@
         {
           "description": "number 2",
           "from": {
-            "key_code": ",",
+            "key_code": "comma",
             "modifiers": {
               "mandatory": ["left_shift", "left_command"]
             }
@@ -581,7 +581,7 @@
         {
           "description": "number 3",
           "from": {
-            "key_code": ".",
+            "key_code": "period",
             "modifiers": {
               "mandatory": ["left_shift", "left_command"]
             }
