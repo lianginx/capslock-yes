@@ -592,6 +592,96 @@
             }
           ],
           "type": "basic"
+        },
+        {
+          "description": "number 4",
+          "from": {
+            "key_code": "j",
+            "modifiers": {
+              "mandatory": ["left_shift", "left_command"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "4"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "number 5",
+          "from": {
+            "key_code": "k",
+            "modifiers": {
+              "mandatory": ["left_shift", "left_command"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "5"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "number 6",
+          "from": {
+            "key_code": "l",
+            "modifiers": {
+              "mandatory": ["left_shift", "left_command"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "6"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "number 7",
+          "from": {
+            "key_code": "u",
+            "modifiers": {
+              "mandatory": ["left_shift", "left_command"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "7"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "number 8",
+          "from": {
+            "key_code": "i",
+            "modifiers": {
+              "mandatory": ["left_shift", "left_command"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "8"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "number 9",
+          "from": {
+            "key_code": "o",
+            "modifiers": {
+              "mandatory": ["left_shift", "left_command"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "9"
+            }
+          ],
+          "type": "basic"
         }
       ]
     },
